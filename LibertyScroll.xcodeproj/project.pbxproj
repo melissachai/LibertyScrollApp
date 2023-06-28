@@ -83,6 +83,7 @@
 				965D90BA2A4C835700A03EF5 /* Views */,
 				965D90BD2A4C83DE00A03EF5 /* ViewModels */,
 				965D90BE2A4C83EF00A03EF5 /* Models */,
+				965D90BB2A4C837500A03EF5 /* ignore */,
 				965D90AF2A4C833A00A03EF5 /* Assets.xcassets */,
 				965D90B12A4C833A00A03EF5 /* Preview Content */,
 			);
@@ -102,11 +103,11 @@
 			children = (
 				965D90AD2A4C833800A03EF5 /* ContentView.swift */,
 				965D90BF2A4C842900A03EF5 /* HomeView.swift */,
-				965D90C12A4C843700A03EF5 /* CategoriesView.swift */,
 				965D90C32A4C844500A03EF5 /* NewRecipeView.swift */,
 				965D90C52A4C845300A03EF5 /* FavoritesView.swift */,
 				965D90C72A4C845D00A03EF5 /* SettingsView.swift */,
 				965D90D32A4C861F00A03EF5 /* TabBar.swift */,
+				965D90D12A4C85BF00A03EF5 /* RecipeView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -116,20 +117,19 @@
 			children = (
 				965D90DC2A4C894700A03EF5 /* SplashScreenView.swift */,
 				965D90B92A4C834C00A03EF5 /* Main */,
-				965D90BB2A4C837500A03EF5 /* Detail */,
 				965D90BC2A4C83B400A03EF5 /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		965D90BB2A4C837500A03EF5 /* Detail */ = {
+		965D90BB2A4C837500A03EF5 /* ignore */ = {
 			isa = PBXGroup;
 			children = (
+				965D90C12A4C843700A03EF5 /* CategoriesView.swift */,
 				965D90CD2A4C858900A03EF5 /* AddRecipeView.swift */,
 				965D90CF2A4C85AB00A03EF5 /* CategoryView.swift */,
-				965D90D12A4C85BF00A03EF5 /* RecipeView.swift */,
 			);
-			path = Detail;
+			path = ignore;
 			sourceTree = "<group>";
 		};
 		965D90BC2A4C83B400A03EF5 /* Components */ = {
