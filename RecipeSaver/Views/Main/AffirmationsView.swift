@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct FavoritesView: View {
+struct AffirmationsView: View {
     var body: some View {
         NavigationView {
-            Text("Favorites")
-                .navigationTitle("Favorites")
+            Text("Affirmations")
+                .navigationTitle("Affirmations")
+                .font(Font.custom("Baskerville", size: 20))
+                .background(Color("LightestBlue"))
         }
         .navigationViewStyle(.stack)
     }
@@ -19,6 +21,6 @@ struct FavoritesView: View {
 
 struct FavoritesView_Previews: PreviewProvider {
     static var previews: some View {
-        FavoritesView()
+        AffirmationsView()
     }
 }
