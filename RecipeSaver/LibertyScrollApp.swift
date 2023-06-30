@@ -1,8 +1,8 @@
 //  USING THIS RECIPE SAVER APP AS A TEMPLATE
 //  TO GUIDE THE LIBERTYSCROLL APP!!!!
 //
-//  RecipeSaverApp.swift
-//  RecipeSaver
+//
+//  LibertyScrollApp.
 //
 //  Created by Melissa Chai on 6/28/23.
 //
